@@ -1,0 +1,11 @@
+[package]
+# changeme
+name = "proc-macro-template"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["proc-macro-template-derive", "proc-macro-template-core"]
+
+[dependencies]
+proc-macro-template-derive = { version = "0.1.0", path = "proc-macro-template-derive" }
