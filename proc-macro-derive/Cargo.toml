@@ -1,5 +1,5 @@
 [package]
-name = "proc-macro-template-derive"
+name = "proc-macro-derive"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,7 +7,7 @@ edition = "2021"
 proc-macro = true
 
 [dependencies]
-proc-macro-template-core = { version = "0.1.0", path = "../proc-macro-template-core" }
+proc-macro-core = { version = "0.1.0", path = "../proc-macro-core" }
 proc-macro-error = "1.0"
 proc-macro2 = "1.0"
 
